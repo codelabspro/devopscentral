@@ -22,5 +22,20 @@ https://devcenter.heroku.com/articles/getting-started-with-grails
 
 https://devcenter.heroku.com/articles/getting-started-with-grails
 
+- Follow instructions to create heroku app using
+heroku create devopscentral
+
+- Configure to use grails wrapper as follows
+
+grails wrapper
+
+- Deploy as follows :
+
+git push heroku master 
+
+This will deploy at
+
+ https://devopscentral.herokuapp.com/
+
 
 
